@@ -3,90 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Nicholas Felarca</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body-styling">
+    <nav>
+        <div class="horizontal">
+            <!-- Each section of nav bar -->
+            <div class="navcol"> <a href="index.html">Home</a> </div>
+            <div class="navcol"><a href="about.html">About</a></div>
+            <div class="navcol"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+
    <header>
-    <h1>Nicholas Felarca's Blog</h1>
-    <h2>Home</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+        <h1>Nicholas Felarca's Blog</h1>
+        <h2>Home</h2>
    </header> 
-   <article>
-        <h3>Why do Astronmers Need to Use Many Types of Telescopes?</h3>
+
+   <main>
+    <article class="article-styling">
+        <h3>Why do Astronomers Need to Use Many Types of Telescopes?</h3>
         <h4>Author: Nicholas Felarca &emsp;  Published: 6:07 PM Sunday October 13, 2024  </h4>
-        <img src="Electromagnetic-Spectrum.jpg" alt="Electromagnetic Spectrum Chart" loading="lazy">
-        <p>
-            &emsp; Astronomers make use of many telescopes for a variety of reasons. The most
-            important reason for this is that telescopes can only see 1 or 2 parts of
-            the electromagnetic (EM) spectrum at most. From highest energy to lowest
-            energy rays it goes gamma, X-ray, ultraviolet (UV), visible infrared (IR), 
-            microwave, and radio.
-            <br> <br>
-            &emsp; For example, James Webb Space Telescope records in the visible and infrared spectrum. 
-            Being able to see in the infrared spectrum is very useful as it helps observe very
-            distant galaxies, which give us more information into the formation of the universe.
-            We see farther back in time the farther we look away because it takes light time to
-            get to us from that point so viewing something 10 billion light years away means that
-            we are seeing something that happened 10 billion years ago.
-            <br> <br>
-            &emsp; Chandara is an X-Ray telescope, which is better for recording higher energy
-            events as they are at a higher frequency than all other bands besides gamma. This is extremely
-            useful for observing high-mass end of life stars, black holes, and galaxy clusters. There are a
-            a variety of other telescopes used by NASA and other associations that collect other parts of
-            the EM specturm to give astronomers as much information as possible about the universe.
-        </p>
+        <section  class="row-styling">
+            
+            <div class="column"> 
+
+                <p>
+                &emsp; Astronomers make use of many telescopes for a variety of reasons. The most
+                important reason for this is that telescopes can only see 1 or 2 parts of
+                the electromagnetic (EM) spectrum at most. From highest energy to lowest
+                energy rays it goes gamma, X-ray, ultraviolet (UV), visible infrared (IR), 
+                microwave, and radio. </p>
+               
+                <p>&emsp; For example, James Webb Space Telescope records in the visible and infrared spectrum. 
+                Being able to see in the infrared spectrum is very useful as it helps observe very
+                distant galaxies, which give us more information into the formation of the universe.
+                We see farther back in time the farther we look away because it takes light time to
+                get to us from that point so viewing something 10 billion light years away means that
+                we are seeing something that happened 10 billion years ago. </p>
+            
+                <p>&emsp; Chandara is an X-Ray telescope, which is better for recording higher energy
+                events as they are at a higher frequency than all other bands besides gamma. This is extremely
+                useful for observing high-mass end of life stars, black holes, and galaxy clusters. There are a
+                a variety of other telescopes used by NASA and other associations that collect other parts of
+                the EM specturm to give astronomers as much information as possible about the universe.</p>
+                </div>
+
+            <div class="column"> <img src="Electromagnetic-Spectrum.jpg" alt="Electromagnetic Spectrum Chart" loading="lazy"> </div>
+        </section>
+
+        
    </article>
 
-   <article>
+   <article class="article-styling">
         <h3>Future NASA Missions to the Moon</h3>
         <h4>Author: Nicholas Felarca &emsp;  Published: 6:48 PM Sunday October 13, 2024  </h4>
-        <img src="Artemis_Phase_1.jpg" alt="Image of the first stage of the Artemis Mission" loading="lazy">
-        <p>
-            &emsp; The NASA Artemis program was created in 2017 and it was intended to establish the
-            first human presence on the moon since the Apollo missions to the moon ended in 1972. Besides
-            getting a person on the moon the program plans to create a perminent human presence around the moon
-            and create a support space station above the moon.
-            <br> <br>
-            &emsp; The main components supporting the program are the Space Launch System and Orion spacecraft. The
-            Orion spacecraft will be used as the capsule that carries up to 6 astronauts between the Earth, Moon and possibly Mars.
-            The Space Launch System (SLS) is the actual rocket that propels the Orion spacecraft into space and is designed to
-            bring payloads into space. The SLS will also help get components for the Gateway, which will be the first space station 
-            that orbits the moon for science and to help other critical missions. 
-            <br> <br>
-            &emsp; Artemis I was completed in 2022 as a test of the Orion Capsule without any people in it. It flew beyond the moon in
-            2022 and was completed successfully. Artemis II is a planned for September of 2025 and will be a flyby of the moon with 4 North
-            American astronauts. Artemis III would see astronauts land on the moon and would happen at earliest on September 2026. The mission
-            would have two astronauts land on the south pole of the Moon and spend a week on the Moon before returning to Earth. The last planned
-            missions are supposed to put together the Gateway space station above the Moon and make it habitable.
-        </p>
-        <table>
-            <tr>
-                <th>Year</th>
-                <th>Mission</th>
-                <th>Descripition</th>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>Artemis I</td>
-                <td>Uncrewed Moon flyby</td>
-            </tr>
-            <tr>
-                <td>2025</td>
-                <td>Artemis II</td>
-                <td>Crewed Moon flyby</td>
-            </tr>
-            <tr>
-                <td>2026</td>
-                <td>Artemis III</td>
-                <td>Crewed Moon landing</td>
-            </tr>
-        </table>
+        <section  class="row-styling">
+            <div class="column">        
+                <p>&emsp; The NASA Artemis program was created in 2017 and it was intended to establish the
+                first human presence on the moon since the Apollo missions to the moon ended in 1972. Besides
+                getting a person on the moon the program plans to create a perminent human presence around the moon
+                and create a support space station above the moon.</p>
+                
+                <p>&emsp; The main components supporting the program are the Space Launch System and Orion spacecraft. The
+                Orion spacecraft will be used as the capsule that carries up to 6 astronauts between the Earth, Moon and possibly Mars.
+                The Space Launch System (SLS) is the actual rocket that propels the Orion spacecraft into space and is designed to
+                bring payloads into space. The SLS will also help get components for the Gateway, which will be the first space station 
+                that orbits the moon for science and to help other critical missions.</p>
+                
+                <p>&emsp; Artemis I was completed in 2022 as a test of the Orion Capsule without any people in it. It flew beyond the moon in
+                2022 and was completed successfully. Artemis II is a planned for September of 2025 and will be a flyby of the moon with 4 North
+                American astronauts. Artemis III would see astronauts land on the moon and would happen at earliest on September 2026. The mission
+                would have two astronauts land on the south pole of the Moon and spend a week on the Moon before returning to Earth. The last planned
+                missions are supposed to put together the Gateway space station above the Moon and make it habitable.</p>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Mission</th>
+                    <th>Descripition</th>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Artemis I</td>
+                    <td>Uncrewed Moon flyby</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>Artemis II</td>
+                    <td>Crewed Moon flyby</td>
+                </tr>
+                <tr>
+                    <td>2026</td>
+                    <td>Artemis III</td>
+                    <td>Crewed Moon landing</td>
+                </tr>
+            </table></div>
+            <div class="column"> <img src="Artemis_Phase_1.jpg" alt="Image of the first stage of the Artemis Mission" loading="lazy"> </div>
+        </section>
+        
+
    </article>
+   </main>
+   
 
 </body>
 

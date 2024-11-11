@@ -1,0 +1,173 @@
+
+
+/* main space for nav bar on desktops */
+.horizontal {
+    overflow: hidden;
+    min-width: 0;
+    min-height: 0;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    height: auto;
+    padding: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0;
+    background-color: #5E5E5E;
+    border-bottom: .75vh solid #8F3985 ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Where each individual box is created by flexing */
+.navcol {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0;
+    min-width: 0;
+    height: auto;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+header{
+    text-align: center;
+    margin: 0;
+    background-color: #5E5E5E;
+    border-bottom: .75vh solid #8F3985 ;
+    margin: 1%;
+}
+
+a{
+    color: #1CCAD8;
+    text-decoration: none;
+}
+
+a:visited {
+    
+    color: #1CCAD8;
+}
+
+a:hover {
+    color:  #ff0000;
+    opacity: .5;
+}
+
+/* Style used for the body of my html files */
+.body-styling {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #5E5E5E;
+    font-size: x-large;
+    color: #1CCAD8;
+    
+}
+
+
+.article-styling {
+    align-self: center;
+    text-align: center;
+    border-bottom: .75vh solid #8F3985 ;
+    margin: 1%;
+}
+
+/* Style for most of the content */
+.mainstyling {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #5E5E5E;
+    flex-grow: 1;
+    justify-content: inter-word;
+    margin: 0 10vw;
+}
+
+
+.row-styling {
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    width: 80vw;
+    resize: vertical;
+}
+
+.column {
+    justify-content: middle;
+    text-align: justify;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: vertical;
+}
+
+
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.form-container {
+    max-width: 50%;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.form {
+    text-align: center;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+tr{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}

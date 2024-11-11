@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nicholas Felarca</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body-styling">
+
+    <nav>
+        <div class="horizontal">
+            <!-- Each section of nav bar -->
+            <div class="navcol"> <a href="index.html">Home</a> </div>
+            <div class="navcol"><a href="about.html">About</a></div>
+            <div class="navcol"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+
    <header>
-    <h1>Nicholas Felarca's Blog</h1>
-    <h2>Contact</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+        <h1>Nicholas Felarca's Blog</h1>
+        <h2>Contact</h2>
    </header> 
 
-   <section>
-        <h3>Form for contact</h3>
-        <form>
-            <label>
-                Name
-                <input type="text">
-            </label>
-            <br>
-            <label>
-                Email Address
-                <input type="text">
-            </label>
-            <br>
-            <label>
-                Reason for Contact
-                <select>
+   <section class="form">
+
+    <h3>Form for Contact</h3>
+    <form class="form-container">
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email   Address</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label   for="reason">Reason for Contact</label>
+                <select id="reason" name="reason">
                     <option value="hi">Saying hi</option>
                     <option value="contractor">Looking for a contractor</option>
-                    <option value="interview">Interested in an interview</option>
+                    <option value="interview">Interested   in an interview</option>
                 </select>
-            </label>
-            <br>
-            <label>
-                Additional Comments
-                <textarea></textarea>
-            </label>
-            <br>
-            <button>Submit</button>
+            </div>
+            <div class="form-group">   
 
-        </form>
-   </section>
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</section>
 
 </body>
 
